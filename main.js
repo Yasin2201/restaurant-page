@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const e=document.querySelector("#content"),t=document.createElement("h1"),n=document.createElement("h2"),o=document.createElement("img");t.textContent="not A Real Restaurant",n.textContent="Food Done Properly... kinda",o.setAttribute("src","images/food-pic.jpeg"),e.appendChild(t),e.appendChild(n),e.appendChild(o)})()})();
