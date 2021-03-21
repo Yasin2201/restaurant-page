@@ -1,26 +1,22 @@
 const contactPage = () => {
     const contentDiv = document.querySelector('#content')
-    const contactBtn = document.querySelector('.contactBtn')
-    // contactBtn.style.color = 'black'
-
-
 
     const contactDiv = document.createElement('div')
     contactDiv.classList.add('contactDiv')
 
-    const contactNum = document.createElement('h2')
-    contactNum.textContent = '07123456789'
-    contactDiv.appendChild(contactNum)
+    const contactTitle = document.createElement('h1')
+    contactTitle.classList.add('contactTitle')
+    contactTitle.textContent = 'Contact'
+    contactDiv.appendChild(contactTitle)
 
-    const contacEmail = document.createElement('h2')
-    contacEmail.textContent = 'restaurant@food.com'
-    contactDiv.appendChild(contacEmail)
+    const contactInfo = document.createElement('contact-h2')
+    contactInfo.classList.add('contact-h2')
+    contactInfo.setAttribute('style', 'white-space: pre;')
 
-    const contactAddress = document.createElement('h2')
-    contactAddress.textContent = '137 Restaurant Road, New Restaurant, N3W R35T, UK'
-    contactDiv.appendChild(contactAddress)
+    contactInfo.textContent = '137 Restaurant Road, \r\n New Restaurant, \r\n N3W R35T, UK \r\n 07123456789 \r\n restaurant@food.com'
+    contactDiv.appendChild(contactInfo)
 
-    
+
     contentDiv.appendChild(contactDiv)
 }
 

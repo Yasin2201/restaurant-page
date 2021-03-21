@@ -7,7 +7,7 @@ const nav = () => {
 
     const headerTitle = document.createElement('h1')
     header.appendChild(headerTitle)
-    headerTitle.textContent = 'not A Real Restaurant'
+    headerTitle.textContent = 'A "Real" Restaurant'
 
     const homeBtn = document.createElement('button')
     header.appendChild(homeBtn)
