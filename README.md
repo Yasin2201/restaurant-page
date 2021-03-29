@@ -1,0 +1,1 @@
+Basic Restaurant page, main focu to gather understanding of using webpack and ES6 modules
